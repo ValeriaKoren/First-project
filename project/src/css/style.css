@@ -1,0 +1,113 @@
+body{
+background-color: white;
+margin: 60px 45px 35px 45px;
+}
+
+.Main{
+font-style: serif;
+}
+
+.mono{
+    font-style: monospace;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.first_box{
+    background: #f9f9f9;
+    border: 1px solid #757474;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin: 20px;
+    width: 10cm;
+}
+
+.second_box{
+    
+    font-style: Courier;
+    
+    border-style:dotted;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 20px;
+    width: 20cm;
+    border-bottom-width: 2px;
+}
+
+.third_box{
+    font-style: Courier; 
+    border-style:dotted;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 20px;
+    width: 20cm;
+    border-bottom-width: 2px;
+}
+
+.fourth_box{
+    font-style: Courier; 
+    border-style:dotted;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 20px;
+    width: 20cm;
+    border-bottom-width: 2px;
+}
+
+.fifth_box{
+    font-style: Courier; 
+    border-style:dotted;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 20px;
+    width: 20cm;
+    border-bottom-width: 2px;
+}
+
+.point1{
+    font-weight: 700;
+}
+
+.point2{
+    font-weight: 700;
+}
+
+.point3{
+    font-weight: 700;
+}
+
+.point4{
+    font-weight: 700;
+}
+
+.step{
+    margin: 25px;
+}
+
+.step2{
+    margin: 25px;
+}
+
+.green{
+    color: darkgreen;
+}
+
+.green2{
+    color: rgb(14, 255, 14);
+}
+
+.pink{
+    color:deeppink; 
+}
+
+
