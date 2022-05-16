@@ -3,7 +3,7 @@ background-color: white;
 margin: 60px 45px 35px 45px;
 }
 
-.main{
+.heading{
     font-style: serif;
 }
 
@@ -24,8 +24,7 @@ ul{
     width: 400px;
 }
 
-.codebox{
-    
+.smallcodebox{
     font-style: Courier;
     border-style:dotted;
     padding-left: 10px;
@@ -37,40 +36,53 @@ ul{
     border-bottom-width: 2px;
 }
 
+.codebox{
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(7, 400px);
+
+    font-style: Courier;
+    border-style:dotted;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 20px;
+    width: 760px;
+    border-bottom-width: 2px;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.chapter{
+    border-bottom: 3px solid;
+}
 
 .point1{
     font-weight: 700;
 }
 
-.point2{
-    font-weight: 700;
-}
-
-.point3{
-    font-weight: 700;
-}
-
-.point4{
-    font-weight: 700;
-}
 
 .step{
     margin: 25px;
 }
 
-.commentcolor{
+.comment{
     color: darkgreen;
 }
 
-.codecolor{
+.specialcode{
     color: rgb(14, 255, 14);
 }
 
-.codecolor2{
+.specialcode2{
     color:deeppink; 
 }
 
-.bigwords{
+.highlight{
     font-weight:bold;
 }
 
