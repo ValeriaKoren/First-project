@@ -10,12 +10,14 @@
             <link rel="stylesheet" href="css/style.css">
         </head>
         
-            <h2 сlass="main">ВикепидиЯ</h2>
-            <h1 style="border-bottom: 3px solid;">Магическое число (программирование)</h1>
+
+        <body>
+            <h2 сlass="heading">ВикепидиЯ</h2>
+            <h1 class="chapter">Магическое число (программирование)</h1>
             
             <p>Материал из Википедии — свободной энциклопедии</p>
             
-            Понятие «<span class="bigwords">Магическое число</span>» в <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">программировании</a> имеет три значения:
+            Понятие «<span class="highlight">Магическое число</span>» в <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">программировании</a> имеет три значения:
             <ul>
                 <li>Сигнатура данных</li>
                 <li>Выделенные уникальные значения, которые не должны совпадать с другими
@@ -27,18 +29,18 @@
                   <h2 style="border-bottom: 3px solid; ">Содержание</h2>
                   <dl>
                     <dt><a href="#part1"><u class="point1"> Сигнатура данных</u></a></dt>
-                    <dt><a href="#part2"><u class="point2"> Плохая практика программирования </u></a></dt>
+                    <dt><a href="#part2"><u class="point1"> Плохая практика программирования </u></a></dt>
                     <dd><a href="#part3"><u class="step">Магические числа и кроссплатформенность</u></a></dd>
                     <dd><a href="#part4"><u class="step">Числа, которые не являются магическими</u></a></dd>
-                    <dt><a href="#part5"><u class="point3"> См. также </u></a></dt>
-                    <dt><a href="#part6"><u class="point4"> Примечания </u></a></dt>
+                    <dt><a href="#part5"><u class="point1"> См. также </u></a></dt>
+                    <dt><a href="#part6"><u class="point1"> Примечания </u></a></dt>
                 </dl>
                 </div>
 
-            <h2 style="border-bottom: 3px solid;" articles id="part1">Сигнатура данных</h2>
+            <h2 class="chapter" articles id="part1">Сигнатура данных</h2>
             
-            <p><span class="bigwords">Магическое число,</span> или 
-                <span class="bigwords">сигнатура,</span> — 
+            <p><span class="highlight">Магическое число,</span> или 
+                <span class="highlight">сигнатура,</span> — 
                 <a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BB%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE">целочисленная</a>) 
                 или текстовая 
                 <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B0_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)">константа</a>, используемая для
@@ -56,15 +58,15 @@
                 названы <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%8F">магическими</a>. 
                 В настоящее время это название прочно
                 закрепилось как <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD">термин</a>. 
-                Например, любой откомпилированный класс языка <span class="main"><a href="https://ru.wikipedia.org/wiki/Java">Java</a></span> начинается с
+                Например, любой откомпилированный класс языка <span class="heading"><a href="https://ru.wikipedia.org/wiki/Java">Java</a></span> начинается с
                 <a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F">шестнадцатеричного </a>
                 «магического числа» <span class="mono">0xCAFEBABE</span>. Второй широко известный пример —
-                любой исполняемый файл <span class="mono">ОС</span> <span class="main">Microsoft Windows</span> с расширением .exe начинается с
+                любой исполняемый файл <span class="mono">ОС</span> <span class="heading">Microsoft Windows</span> с расширением .exe начинается с
                 последовательности байт <span class="mono">0x4D5A</span> (что соответствует <span class="mono"><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B1%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8,_%D0%9C%D0%B0%D1%80%D0%BA">ASCII</a></span>
                 -символам <span class="mono">MZ</span> — инициалы <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B1%D0%B8%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8,_%D0%9C%D0%B0%D1%80%D0%BA">Марка Збиковски</a>
                 , одного из создателей <a href="https://ru.wikipedia.org/wiki/MS-DOS">MS-DOS</a>
                 ). Менее известным примером является
-                неинициализированный указатель в <span class="main">Microsoft Visual С++</span> (начиная с 2005 версии <span class="Main">Microsoft Visual Studio</span>
+                неинициализированный указатель в <span class="heading">Microsoft Visual С++</span> (начиная с 2005 версии <span class="heading">Microsoft Visual Studio</span>
                 ), который в режиме отладки имеет адрес <span class="mono">0xDEADBEEF</span>.
             </p>
                 
@@ -72,12 +74,12 @@
                  вне зависимости от расширения его названия. Для интерпретации сигнатуры файла в них
                 предусматривается стандартная утилита <span class="mono">file</span>.</p>
 
-            <h2 style="border-bottom: 3px solid;" articles id="part2">Плохая практика программирования</h2>
+            <h2 class="chapter" articles id="part2">Плохая практика программирования</h2>
             Также «магическими числами» называют плохую практику программирования, когда в исходном
             тексте встречается числовое значение и неочевиден его смысл. Например, такой фрагмент,
-            написанный на <span class="main"><a href="https://ru.wikipedia.org/wiki/Java">Java</a></span>, будет плохим:
+            написанный на <span class="heading"><a href="https://ru.wikipedia.org/wiki/Java">Java</a></span>, будет плохим:
             
-            <div class="codebox">
+            <div class="smallcodebox">
                 <code>
                 drawSprite(53, 320, 240);
             </code>
@@ -86,13 +88,13 @@
             Тому, кто не писал программу, трудно понять, что такое 53, 320 или 240. Но если этот код
             переписать, всё становится на свои места.
 
-            <div class="codebox">
+            <div class="smallcodebox">
                 <code>
-                <p><span class="codecolor">final</span> <span class="codecolor2">int</span> SCREEN_WIDTH = 640;</p>
-                <p><span class="codecolor">final</span> <span class="codecolor2">int</span> SCREEN_WIDTH = 640;</p>
-                <p><span class="codecolor">final</span> <span class="codecolor2">int</span> SCREEN_X_CENTER = SCREEN_WIDTH / 2;</p>
-                <p><span class="codecolor">final</span> <span class="codecolor2">int</span> SCREEN_X_CENTER = SCREEN_WIDTH / 2;</p>
-                <p><span class="codecolor">final</span> <span class="codecolor2">int</span> SPRITE_CROSSHAIR = 53;</p>
+                <p><span class="specialcode">final</span> <span class="specialcode2">int</span> SCREEN_WIDTH = 640;</p>
+                <p><span class="specialcode">final</span> <span class="specialcode2">int</span> SCREEN_WIDTH = 640;</p>
+                <p><span class="specialcode">final</span> <span class="specialcode2">int</span> SCREEN_X_CENTER = SCREEN_WIDTH / 2;</p>
+                <p><span class="specialcode">final</span> <span class="specialcode2">int</span> SCREEN_X_CENTER = SCREEN_WIDTH / 2;</p>
+                <p><span class="specialcode">final</span> <span class="specialcode2">int</span> SPRITE_CROSSHAIR = 53;</p>
                 <p>...</p>
                 <p>drawSprite(SPRITE_CROSSHAIR, SCREEN_X_CENTER, SCREEN_Y_CENTER);</p>
                 </code>
@@ -134,37 +136,43 @@
             Например:
 
             <div class="codebox">
-                <code><p><span class="codecolor">const</span> <span class="codecolor2">size_t</span> NUMBER_OF_ELEMENTS = 10;<p></p>
-                <span class="codecolor2">long</span> a[NUMBER_OF_ELEMENTS];<p>
-                memset(a, 0, 10 * 4);  &nbsp;   &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  <i class="commentcolor">// неправильно — подразумевается, что long
-                    равен 4 байтам, используется магическое число элементов</i><p></p>
-                memset(a, 0, NUMBER_OF_ELEMENTS * 4);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="commentcolor">// неправильно — подразумевается, что long
-                    равен 4 байтам</i> <p></p>
-                memset(a, 0, NUMBER_OF_ELEMENTS * sizeof(long));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="commentcolor">// не совсем правильно — дублирование имени
-                    типа (если изменится тип, то придется менять и здесь)</i> <p></p>
-                memset(a, 0, NUMBER_OF_ELEMENTS * sizeof(a[0]));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="commentcolor">// правильно, оптимально для динамических
-                    массивов ненулевого размера</i><p></p>
-                memset(a, 0, sizeof(a));&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="commentcolor">// правильно, оптимально для статических
-                    массивов</i><p></p></code>
+                <code>
+
+                    <div class="item item1"><span class="specialcode">const</span> <span class="specialcode2">size_t</span> NUMBER_OF_ELEMENTS = 10;</div>
+                    <div class="item item2"></div>
+                    <div class="item item3"><span class="specialcode2">long</span> a[NUMBER_OF_ELEMENTS];</div>
+                    <div class="item item4"></div>
+                    <div class="item item5">memset(a, 0, 10 * 4);</div>
+                    <div class="item item6"><i class="comment">// неправильно — подразумевается, что long равен 4 байтам, используется магическое число элементов </i></div>
+                    <div class="item item7">memset(a, 0, NUMBER_OF_ELEMENTS * 4);</div>
+                    <div class="item item8"><i class="comment">// неправильно — подразумевается, что long равен 4 байтам </i></div>
+                    <div class="item item9">memset(a, 0, NUMBER_OF_ELEMENTS * sizeof(long));</div>
+                    <div class="item item10">// не совсем правильно — дублирование имени типа (если изменится тип, то придется менять и здесь)</i></div>
+                    <div class="item item11">memset(a, 0, NUMBER_OF_ELEMENTS * sizeof(a[0]));</div>
+                    <div class="item item12"><i class="comment">// правильно, оптимально для динамических массивов ненулевого размера</i></div>
+                    <div class="item item13">memset(a, 0, sizeof(a));</div>
+                    <div class="item item14"><i class="comment">// правильно, оптимально для статических массивов</i></div>
+                 
+                </code>
             </div>
 
            
             <h2 articles id="part4">Числа, которые не являются магическими</h2>
             Не все числа требуется переносить в константы. Например, код на <a href="https://ru.wikipedia.org/wiki/Delphi_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)">Delphi</a>:
 
-            <div class="codebox">
-                <code><span class="codecolor">for</span> i:=0 <span class="codecolor">to</span> Count-1 <span class="codecolor">do</span> ...</code>
+            <div class="smallcodebox">
+                <code><span class="specialcode">for</span> i:=0 <span class="specialcode">to</span> Count-1 <span class="specialcode">do</span> ...</code>
             </div>
 
             Смысл чисел 0 и 1 понятен, и дальнейшего объяснения не требуется
 
-            <h2 style="border-bottom: 3px solid;" articles id="part5">См. также</h2>
+            <h2 class="chapter" articles id="part5">См. также</h2>
             <ul>
                 <li><a href="https://ru.wikipedia.org/wiki/Hexspeak">Hexspeak</a></li>
                 <li><a href="https://ru.wikipedia.org/wiki/%D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9_%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D1%8C">Быстрый обратный квадратный корень</a></li>
             </ul>
 
-            <h2 style="border-bottom: 3px solid;" articles id="part6">Примечания</h2>
+            <h2 class="chapter" articles id="part6">Примечания</h2>
             <a href="https://pvs-studio.com/ru/blog/posts/cpp/a0004/#IDA3IWXD">1. 20 ловушек переноса кода на C++ на 64-битную платформу (http://www.viva64.com/cont
                 ent/articles/64-bit-development/?f=20_issues_of_porting_C++_code_on_the_64-bit_platform
                 _rus.html&lang=ru&content=64-bit-development#IDA3IWXD)</a>
